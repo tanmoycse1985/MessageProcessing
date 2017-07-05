@@ -51,7 +51,7 @@ public class SalesMessageProcessingServiceImpl implements SalesMessageProcessing
 		int reportSalesSize = reportSales.size();
 		int reportAdjustmentsSize = reportAdjustments.size();
 
-		/*
+		/**
 		 * After every 10th message received, log a report detailing the number
 		 * of sales of each product and their total value.
 		 */
@@ -60,7 +60,7 @@ public class SalesMessageProcessingServiceImpl implements SalesMessageProcessing
 			reportSales.clear();
 		}
 
-		/*
+		/**
 		 * After 50 messages, log that it is pausing, stop accepting new
 		 * messages and log a report of the adjustments that have been made to
 		 * each sale type while the application was running.
