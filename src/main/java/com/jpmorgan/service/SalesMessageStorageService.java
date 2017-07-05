@@ -3,10 +3,10 @@ package com.jpmorgan.service;
 import com.jpmorgan.domain.Sale;
 
 /**
+ * This class is act as an interface for @SalesMessageStorageServiceImpl
  * 
  * @author Tanmoy_Mondal
  * @version 1.0
- * @Description This class is act as an interface for @SalesMessageStorageServiceImpl
  *
  */
 public interface SalesMessageStorageService {
@@ -14,7 +14,7 @@ public interface SalesMessageStorageService {
     /**
      * Saves a single sale record
      * 
-     * @param sale
+     * @param 
      * @return An unique id
      */
     String save(Sale sale);
@@ -23,7 +23,7 @@ public interface SalesMessageStorageService {
     /**
      * Get sale record by using the record Id
      *
-     * @param recordId
+     * @param 
      * @return the searched Sale
      */
     Sale getRecord(String recordId);

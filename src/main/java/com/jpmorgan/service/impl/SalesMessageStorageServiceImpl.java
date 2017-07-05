@@ -10,9 +10,9 @@ import com.jpmorgan.domain.Sale;
 import com.jpmorgan.service.SalesMessageStorageService;
 
 /**
+ * This class implements @SalesMessageStorageService and storing data in LinkedHashMap
  * @author Tanmoy_Mondal
  * @version 1.0
- * @Description This class implements @SalesMessageStorageService and storing data in LinkedHashMap
  */
 @Service
 public class SalesMessageStorageServiceImpl implements SalesMessageStorageService {

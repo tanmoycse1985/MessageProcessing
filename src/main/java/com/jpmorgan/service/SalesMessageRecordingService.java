@@ -15,13 +15,13 @@ public interface SalesMessageRecordingService {
 
     /**
      * Save the number of sales of each product and their total value
-     * @param List of sales
+     * @param 
      */
     void saveSalesDetails(List<Sale> sales);
 
     /**
      * Save the adjustments that have been made to each sale type
-     * @param List of sales
+     * @param
      */
     void saveAdjustmentsDetails(List<Sale> sales);
 }

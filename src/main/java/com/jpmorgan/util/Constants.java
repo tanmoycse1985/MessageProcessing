@@ -3,7 +3,6 @@ package com.jpmorgan.util;
  * Containing constant properties
  * 
  * @author Tanmoy_Mondal
- *
  */
 public final class Constants {
     

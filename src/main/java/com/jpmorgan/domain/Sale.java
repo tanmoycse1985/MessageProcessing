@@ -8,10 +8,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
+ * It represents the Sale data model.
  * @author Tanmoy_Mondal
  * @version 1.0
- * @Description It represents the Sale data model.
- *
  */
 @XmlRootElement(name="Sale")
 @XmlAccessorType(XmlAccessType.FIELD)

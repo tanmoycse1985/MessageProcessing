@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 
 /**
+ * Adjustment Operation Model class
  * @author Tanmoy_Mondal
- * @version 1.0
- * @Description Adjustment Operation Model class
+ * @version 1.0 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 public class AdjustmentOperation {

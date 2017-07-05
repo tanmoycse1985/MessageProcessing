@@ -12,6 +12,7 @@ public interface MessageClient {
 	 * @param activeMQConnectionFactory
 	 * @throws JMSException
 	 * @throws InterruptedException
+	 * 
 	 */
 	public void startMessageApplication(ActiveMQConnectionFactory activeMQConnectionFactory)
 			throws JMSException, InterruptedException;

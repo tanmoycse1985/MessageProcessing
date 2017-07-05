@@ -14,7 +14,8 @@ import com.jpmorgan.service.SalesMessageRecordingService;
 /**
  * @author Tanmoy_Mondal
  * @version 1.0
- * This class is an implementation of @SalesMessageRecordingService. It records
+ * 
+ * @Description This class is an implementation of @SalesMessageRecordingService. It records
  * the information of Sales and Adjustments.
  */
 @Service

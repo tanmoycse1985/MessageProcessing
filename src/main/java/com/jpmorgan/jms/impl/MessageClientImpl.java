@@ -20,7 +20,6 @@ import com.jpmorgan.jms.MessageClient;
  * 
  * @author Tanmoy_Mondal
  * @version 1.0
- *
  */
 
 public class MessageClientImpl implements MessageClient {

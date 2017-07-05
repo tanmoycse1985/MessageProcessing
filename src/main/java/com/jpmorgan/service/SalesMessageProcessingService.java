@@ -6,19 +6,21 @@ import com.jpmorgan.domain.Sale;
 
 /**
  * A Sales Message Processing Service Interface
+ * 
+ * @author Tanmoy_Mondal
  */
 public interface SalesMessageProcessingService {
 
     /**
      * Processing a Sale record
-     * @param sale
+     * @param
      */
     void processSaleRecord(Sale sale);
     
     /**
      * Unmarshalling the Sale object
      * 
-     * @param msgText
+     * @param 
      * @return @Sale
      * @throws JAXBException
      */
